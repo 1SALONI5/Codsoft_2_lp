@@ -1,0 +1,112 @@
+# Codsoft_2_lp
+Landing Page project under Codsoft summer internship
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Cakes Landing Page</title>
+    <link rel="stylesheet" href="stylel.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Delicious Cakes</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="cake">
+        <img src="images/cake1.jpg" alt="Delicious Cake">
+        <div class="cake-text">
+            <h2>Your Perfect Cake Awaits</h2>
+            <p>Indulge in our freshly baked, beautifully decorated cakes for every occasion.</p>
+            <a href="#contact" class="btn">Order Now</a>
+        </div>
+    </section>
+
+    <section id="about" class="content">
+        <h2>About Us</h2>
+        <h1> WELCOME TO DELICIOUS CAKE </h1>
+        <p>At Delicious Cakes, we believe in baking happiness. Our cakes are made with the finest ingredients and a lots of love.</p>
+        <img class="about-img" src="images/cake.jpg">
+    </section>
+    
+    <section id="gallery" class="content">
+        <h2>Gallery</h2>
+        <p>Check out our beautiful and tasty cake creations.</p>
+        <div class="container">
+        <div class="Gallery">
+            <img src="images/gallery1.jpg">
+            <div class="desc">Birthday Cake </div>
+        </div>
+        <div class="Gallery">
+            <img src="images/gallery2.jpg">
+            <div class="desc"> Cupcake</div>
+        </div>
+        <div class="Gallery">
+            <img src="images/gallery3.jpg">
+            <div class="desc">Pastry </div>
+        </div>
+        <div class="Gallery">
+            <img src="images/gallery4.jpg">
+            <div class="desc">Fruit Cake </div>
+        </div>
+        <div class="Gallery">
+            <img src="images/gallery5.jpg">
+            <div class="desc"> Wedding Cake</div>
+        </div>
+        <div class="Gallery">
+            <img src="images/gallery6.jpg">
+            <div class="desc"> Rainbow Cake</div>
+        </div>
+        <div class="Gallery">
+            <img src="images/gallery7.jpg">
+            <div class="desc"> Chocolate Cake</div>
+        </div>
+        <div class="Gallery">
+            <img src="images/gallery8.jpeg">
+            <div class="desc">Cheese Cake </div>
+        </div>
+        <div class="Gallery">
+            <img src="images/gallery9.jpg">
+            <div class="desc">Jelly Cake </div>
+        </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="content">
+        <h2>Contact Us</h2>
+        <p>Ready to order? Get in touch with us today!</p>
+        <div class="contactForm">
+            <form>
+                <h2>Send Message</h2>
+                <div class="inputBox">
+                    <span>Full Name</span>
+                    <input type="text" name="" required="required">                           
+                </div>
+                <div class="inputBox">
+                    <span>Email</span>
+                    <input type="text" name="" required="required">
+                </div>
+                <div class="inputBox">
+                    <span>Type Your Message...</span>
+                    <textarea required="required"></textarea>                          
+                </div>
+                <div class="inputBox">
+                    <input type="submit" name="" value="Send">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delicious Cakes. All rights reserved.</p>
+    </footer>
+</body>
+</html>
